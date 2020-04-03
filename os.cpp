@@ -18,14 +18,7 @@ int main()
 	printf("\nEnter number of people ready to take ride:");
 	scanf("%d",&ready);
 
-	if(cars == 0)
-	{
-		printf("\nNo. of passengers completed the park ride = 0");
-		printf("\nNo. of passengers wandering in the museum = %d",wander);
-		printf("\nNo. of passengers completed the park ride = %d",ready);
-	}
-	
-	else if(ready==cars)
+	if(ready==cars)
 	{
 		printf("\nAll cars are in ride and are available in 15 min");	
 		printf("\nNo. of passengers wandering in the museum = %d",wander);
